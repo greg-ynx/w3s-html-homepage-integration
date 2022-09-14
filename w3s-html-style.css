@@ -13,6 +13,7 @@ h1, h2, h3, p, span, a {
     padding-right: 10px;
     display: flex;
     align-items:center;
+    font-size: 18px;
 }
 
 #page-top a {
@@ -41,3 +42,23 @@ h1, h2, h3, p, span, a {
     padding-top: 15px;
 }
 
+.button {
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#ProButton {
+    color: white;
+    background-color: #282A35;
+}
+
+#GetCertifiedButton {
+    color: black;
+    background-color: #FFC0C7;
+}
+
+#FreeWebsiteButton {
+    color: black;
+    background-color: #4CAF50;
+}
