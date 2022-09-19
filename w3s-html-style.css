@@ -12,7 +12,7 @@ h1, h2, h3, p, span, a {
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
-    align-items:center;
+    align-items: center;
     font-size: 18px;
 }
 
@@ -26,7 +26,7 @@ h1, h2, h3, p, span, a {
 #page-top a.item {
     text-align: center;
     padding-top: 26px;
-    padding-bottom: 26px;
+    padding-bottom: 23px;
     text-decoration: none;
     color: #000000;
 }
@@ -48,9 +48,22 @@ h1, h2, h3, p, span, a {
     text-align: center;
 }
 
+.page-top-buttons {
+    margin-left: auto;
+}
+
+.page-top-buttons a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 #ProButton {
     color: white;
     background-color: #282A35;
+}
+
+#ProButton:hover {
+    background-color: #616161;
 }
 
 #GetCertifiedButton {
@@ -58,7 +71,48 @@ h1, h2, h3, p, span, a {
     background-color: #FFC0C7;
 }
 
+#GetCertifiedButton:hover {
+    background-color: #FFB3BB;
+}
+
 #FreeWebsiteButton {
     color: black;
-    background-color: #4CAF50;
+    background-color: #FFF4A3;
+}
+
+#FreeWebsiteButton:hover {
+    background-color: #FFF080;
+}
+
+.page-top-login {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.top-nav {
+    width: 100%;
+    background-color: #282A35;
+    overflow: auto;
+}
+
+
+.top-nav a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
+.top-nav a:hover {
+    background-color: #000;
+}
+
+
+.top-nav-active {
+    background-color: #04AA6D;
 }
