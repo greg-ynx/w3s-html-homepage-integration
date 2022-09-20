@@ -1,3 +1,12 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -14,6 +23,7 @@ h1, h2, h3, p, span, a {
     display: flex;
     align-items: center;
     font-size: 18px;
+    box-sizing: initial;
 }
 
 #page-top a {
@@ -89,12 +99,19 @@ h1, h2, h3, p, span, a {
     margin-right: 15px;
 }
 
+.page-content {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
 .top-nav {
     width: 100%;
     background-color: #282A35;
     overflow: auto;
+    box-sizing: initial;
+    z-index: 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
 }
-
 
 .top-nav a {
     float: left;
@@ -107,12 +124,105 @@ h1, h2, h3, p, span, a {
     font-weight: bolder;
 }
 
-
 .top-nav a:hover {
     background-color: #000;
 }
 
-
-.top-nav-active {
-    background-color: #04AA6D;
+.top-nav-active, .top-nav-active:hover {
+    background-color: #04AA6D !important;
 }
+
+.top-nav-icon {
+    font-size: 20px !important;
+    font-weight: lighter !important;
+}
+
+.top-nav .right {
+    float: right !important;
+}
+
+@media (min-width: 993px) {
+    .sidebar {
+        display: block;
+        width: 220px;
+        height: 100%;
+        position: fixed;
+        overflow: auto;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        visibility: hidden;
+    }
+}
+
+.left-menu-inner {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    top: 0;
+    padding-bottom: 0;
+}
+
+@media (min-width: 1462px) {
+    .sidebar {
+        top: 114px;
+    }
+
+    .left-menu-inner {
+        min-height: 100%;
+        padding-top: 115px;
+    }
+}
+
+@media (max-width: 1461px) {
+    .sidebar {
+        top: 158px;
+    }
+
+    .left-menu-inner {
+        padding-top: 158px;
+    }
+}
+
+.left-menu-inner a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+
+.left-menu-inner a:hover {
+    background-color: #CCCCCC;
+}
+
+.left-menu-inner a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.left-menu-inner h2 {
+    font-size: 21px;
+}
+
+.left-menu-inner h2, .left-menu-inner a {
+    padding-left: 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.left-menu-inner-inner {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #E7E9EB;
+}
+
+main {
+
+}
+
