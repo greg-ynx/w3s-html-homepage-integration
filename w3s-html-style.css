@@ -373,3 +373,16 @@ main h2 {
     border-left: 3px solid #04AA6D;
     background-color: white;
 }
+
+.example-textarea span {
+    font-size: 15px;
+    font-family: Consolas, Menlo, "courier new", monospace;
+}
+
+.angle-bracket-decoration {
+    color: mediumblue;
+}
+
+.html-tag-decoration {
+    color: brown;
+}
