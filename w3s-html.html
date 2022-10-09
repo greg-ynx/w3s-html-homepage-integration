@@ -256,5 +256,32 @@
             </div>
         </main>
     </div>
+    <script>
+        function updateSideBar () {
+            let viewportWidth = window.innerWidth;
+            const asideElement = document.querySelector("aside");
+            const leftMenuElements = document.getElementsByClassName("left-menu-inner");
+            const leftMenuElement = leftMenuElements.item(0);
+            if (this.scrollY !== 0) {
+                if (viewportWidth < 1492) {
+                    asideElement.style.top = "88px";
+                    leftMenuElement.style.paddingTop = "88px";
+                    return;
+                }
+                asideElement.style.top = "44px";
+                leftMenuElement.style.paddingTop = "44px";
+            }
+            else {
+                if (viewportWidth < 1492) {
+                    asideElement.style.top = "158px";
+                    leftMenuElement.style.paddingTop = "158px";
+                    return;
+                }
+                asideElement.style.top = "114px";
+                leftMenuElement.style.paddingTop = "115px";
+            }
+        }
+        window.addEventListener("scroll", updateSideBar, false);
+    </script>
 </body>
 </html>
