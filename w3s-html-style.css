@@ -302,8 +302,8 @@ h1, h2, h3, p, span, a {
 }
 
 main {
- z-index: -2;
-    border-bottom: 1px solid gray;
+    z-index: -2;
+    border-bottom: 1px solid lightgray;
 }
 
 main h1 {
@@ -338,7 +338,7 @@ main h2 {
 }
 
 #MainContent {
-    border-right: 1px solid gray;
+    border-right: 1px solid lightgray;
 }
 
 .main-content {
@@ -437,4 +437,37 @@ main h2 {
 
 #StartTheExercise:hover {
     color: #04AA6D;
+}
+
+#ReferencesGrid {
+    display: grid;
+}
+
+@media(min-width: 601px) {
+    #ReferencesGrid {
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
+@media(max-width: 600px) {
+    #ReferencesGrid {
+        grid-template-columns: 100%;
+    }
+}
+
+.references-btn {
+    margin-bottom: 16px;
+    width: 90%;
+    padding: 20px 0;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #E7E9EB;
+    color: black;
+}
+
+.references-btn:hover {
+    background-color: black;
+    color: white;
 }
