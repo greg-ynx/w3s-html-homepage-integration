@@ -543,3 +543,36 @@ main h2 {
     text-align: center;
     border-radius: 25px;
 }
+
+#ColorPickerTitle {
+    text-decoration: none;
+    color: black;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#ColorPickerTitle:hover {
+    color: #04AA6D;
+}
+
+.social-networks a {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+.fa-instagram:hover {
+    color: #8a3ab9;
+}
+
+.fa-linkedin-square:hover {
+    color: #2867B2;
+}
+
+.fa-discord:hover {
+    color: #5865f2;
+}
