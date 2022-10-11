@@ -701,3 +701,41 @@ footer {
     color: #04AA6D;
     text-decoration: underline;
 }
+
+#ForumAbout {
+    float:right;
+    margin-right: 50px;
+    margin-bottom: 16px;
+    color: lightgrey;
+}
+
+#ForumAbout a {
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+}
+
+#ForumAbout a:hover {
+    color: #04AA6D;
+}
+
+#Terms, #Terms a {
+    color: lightgrey;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+#Terms a {
+    text-decoration: none;
+}
+
+#Terms a:hover {
+    color: #04AA6D;
+    text-decoration: underline;
+}
