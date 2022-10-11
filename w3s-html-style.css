@@ -605,8 +605,8 @@ main h2 {
     width: 100%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -634,6 +634,10 @@ main h2 {
     font-weight: 400;
 }
 
+#LynxModel:hover {
+    opacity: 0.6;
+}
+
 #PlayGameButton {
     display: inline-block;
     color: white;
@@ -641,12 +645,59 @@ main h2 {
     width: 100%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 #PlayGameButton:hover {
     background-color: #04AA6D;
+}
+
+footer {
+    margin-left: 230px;
+    margin-right: 10px;
+}
+
+.rspg {
+    width: 90%;
+    text-align: center;
+    color: white;
+    background-color: #282A35;
+    padding: 8px!important;
+    border-radius: 3px!important;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.rspg:hover {
+    background-color: #04AA6D!important;
+}
+
+#TopCategories {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 10px 0!important;
+    text-align: center;
+}
+
+#TopCategories h5 {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px 0!important;
+    text-decoration: none;
+    color: black;
+}
+
+#TopCategories a {
+    font-size: 12px;
+    font-family: Verdana,sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#TopCategories a:hover, #TopCategories a > h5:hover {
+    color: #04AA6D;
+    text-decoration: underline;
 }
