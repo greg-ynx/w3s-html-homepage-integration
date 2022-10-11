@@ -409,3 +409,32 @@ main h2 {
     margin-bottom: 16px;
     font-size: 17px;
 }
+
+.exercise-container {
+    padding: 20px;
+    margin: 2%;
+    color: white;
+    background-color: #282A35;
+    border-radius: 5px;
+}
+
+.exercise-textarea {
+    padding: 16px;
+    color: black;
+    background-color: white;
+}
+
+.exercise-answer-container {
+    background-color: #E7E9EB;
+    padding: 16px;
+    font-size: 20px;
+    font-family: Consolas,Menlo,"Courier New", Courier, monospace;
+}
+
+#StartTheExercise {
+    color: black;
+}
+
+#StartTheExercise:hover {
+    color: #04AA6D;
+}
