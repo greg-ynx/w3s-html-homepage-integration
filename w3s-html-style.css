@@ -514,3 +514,32 @@ main h2 {
     transform: rotate(10deg);
     bottom: -20%;
 }
+
+#MainSideContent {
+    padding: 16px 8px;
+    text-align: center;
+}
+
+.side-section {
+    margin-bottom: 32px;
+}
+
+#VideoSideSection {
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: #282A35;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.new-sticker {
+    background-color: #FFF4A3 !important;
+    color: black;
+    width: 60px;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
