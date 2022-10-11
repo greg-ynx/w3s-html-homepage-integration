@@ -521,7 +521,7 @@ main h2 {
 }
 
 .side-section {
-    margin-bottom: 32px;
+    margin-bottom: 32px!important;
 }
 
 #VideoSideSection {
@@ -575,4 +575,78 @@ main h2 {
 
 .fa-discord:hover {
     color: #5865f2;
+}
+
+#GetCertifiedSection {
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: #282A35;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+#GetCertifiedSection p {
+    font-size: 18px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #FFC0C7
+}
+
+#GetCertifiedSection a {
+    text-decoration: none;
+}
+
+#GetStartedButton {
+    display: inline-block;
+    color: white;
+    background-color: #04AA6D;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#GetStartedButton:hover {
+    background-color: #059862;
+}
+
+#GameSection {
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-radius: 5px;
+    color: black;
+    background-color: #96D4D4;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+#CodeGameTitle {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+#PlayGameButton {
+    display: inline-block;
+    color: white;
+    background-color: #282A35;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#PlayGameButton:hover {
+    background-color: #04AA6D;
 }
