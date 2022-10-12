@@ -220,6 +220,10 @@ h1, h2, h3, p, span, a {
         grid-template-columns: 80% 20%;
     }
 
+    footer {
+        margin-left: 230px;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -235,7 +239,11 @@ h1, h2, h3, p, span, a {
         display: block;
     }
 
+    footer {
+        margin-left: 10px;
     }
+
+}
 
 .left-menu-inner {
     position: fixed;
@@ -515,6 +523,12 @@ main h2 {
     bottom: -20%;
 }
 
+@media (max-width: 1190px) {
+    #CertifiedArrow, #CertifiedPin {
+        display: none;
+    }
+}
+
 #MainSideContent {
     padding: 16px 8px;
     text-align: center;
@@ -656,7 +670,6 @@ main h2 {
 }
 
 footer {
-    margin-left: 230px;
     margin-right: 10px;
 }
 
